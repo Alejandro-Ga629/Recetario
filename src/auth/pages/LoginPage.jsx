@@ -8,6 +8,7 @@ export const LoginPage = () => {
   return (
     
     <AuthLayout title='Login'>
+      
       <form>
         <Grid container>
 
@@ -25,7 +26,7 @@ export const LoginPage = () => {
             <TextField 
                 label="Contraseña"
                 type="password"
-                placeholder='correo@google.cl'
+                placeholder='Contraseña'
                 fullWidth
                 
             />
