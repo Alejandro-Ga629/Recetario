@@ -1,4 +1,4 @@
-import { Grid, Typography, } from '@mui/material';
+import { Avatar, Grid, Typography, } from '@mui/material';
 import { AccountCircleOutlined } from '@mui/icons-material';
 
 export const AuthLayout = ({ children, title = '' }) => {
